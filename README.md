@@ -20,15 +20,7 @@ A **TV Rio Grande** nasceu com o propósito de **informar, entreter e valorizar 
 
 ---
 
-## 🛠️ O que você encontra aqui
 
-Este repositório pode conter:
-
-- 🌐 Códigos e estrutura do nosso site [tvriogrande.com](https://tvriogrande.com/)
-- 🎞️ Vinhetas, artes, aberturas e chamadas para programas
-- 📂 Projetos gráficos, vídeos e roteiros de campanhas
-- 📺 Propostas de novos programas e formatos
-- 🧩 Plugins e integrações do nosso sistema de votação e interatividade
 
 ---
 
