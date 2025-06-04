@@ -40,7 +40,7 @@ A **TV Rio Grande** nasceu com o propósito de **informar, entreter e valorizar 
 
 🎥 Quer sua empresa na TV Rio Grande?  
 💬 Tem uma pauta ou sugestão de matéria?  
-📨 Entre em contato: **contato@tvriogrande.com**
+📨 Entre em contato: **webtvbrasil.com/tvriogrande**
 
 ---
 
