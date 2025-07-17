@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Você foi fotografado?</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      color: #fff;
+    }
+    .form-box {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+      max-width: 400px;
+      width: 90%;
+      text-align: center;
+      color: #333;
+    }
+    h2 {
+      margin-bottom: 10px;
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+    }
+    input {
+      width: 100%;
+      padding: 10px 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    button {
+      width: 100%;
+      background: #00c853;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    button:hover {
+      background: #00a646;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-box">
+    <h2>Você foi fotografado?</h2>
+    <p>Preencha abaixo para verificar se sua foto está disponível.</p>
+    <form id="whatsappForm">
+      <input type="text" id="nome" placeholder="Seu nome" required>
+      <input type="email" id="email" placeholder="Seu e-mail" required>
+      <button type="submit">Falar com Felipe via WhatsApp</button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById('whatsappForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const nome = document.getElementById('nome').value;
+      const email = document.getElementById('email').value;
+      const msg = `Olá Felipe! Meu nome é ${nome} e meu e-mail é ${email}. Gostaria de saber se fui fotografado em algum evento.`;
+      const url = `https://wa.me/13159084777?text=${encodeURIComponent(msg)}`;
+      window.open(url, '_blank');
+    });
+  </script>
+</body>
+</html>
